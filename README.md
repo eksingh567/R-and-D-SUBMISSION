@@ -71,14 +71,17 @@ plt.ylabel('Salary')
 plt.title('Linear Regression: Years of Experience vs Salary')
 plt.legend()
 plt.show()
-Explanation
-Loading the Dataset: The dataset is loaded using pandas.
-Adding Bias Term: A column of ones is added to account for the intercept in the regression equation.
-Gradient Descent:
-Parameters are initialized randomly.
-The parameters are updated iteratively based on the gradient of the cost function (Mean Squared Error).
-Calculating MSE: The Mean Squared Error is computed to evaluate model performance.
-Plotting: The original data points and the fitted regression line are visualized using matplotlib.
+
+#Loading the Dataset: 
+The dataset is loaded using pandas.
+#Adding Bias Term: 
+A column of ones is added to account for the intercept in the regression equation.
+#Gradient Descent:
+Parameters are initialized randomly. The parameters are updated iteratively based on the gradient of the cost function (Mean Squared Error).
+#Calculating MSE: 
+The Mean Squared Error is computed to evaluate model performance.
+#Plotting: 
+The original data points and the fitted regression line are visualized using matplotlib.
 Expected Outcome
 When you run the code with the provided dataset, you should see:
 
